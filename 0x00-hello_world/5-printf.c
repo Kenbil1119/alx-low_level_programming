@@ -1,4 +1,6 @@
-//5-printf.c:creating a code using funtion "printf" as the output funtion
+/**
+ * 5-printf.c:creating a code using funtion "printf" as the output funtion
+*/
 #include <stdio.h>
 
 int main()
