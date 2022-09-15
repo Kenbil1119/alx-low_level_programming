@@ -5,7 +5,7 @@
  * I was to use the function 'puts' not 'printf'
  * and ends with the value 0
  */
-#include "stdio.h"
+#include <stdio.h>
 
 int main(void)
 
