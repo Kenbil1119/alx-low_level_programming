@@ -1,12 +1,11 @@
-/*
- * This is the first C program task for me in ALX School.
+#include <stdio.h>
+
+/**
  * main - prints "Programming is like building a multilingual puzzle
  * follow by a new line character
  * I was to use the function 'puts' not 'printf'
  * and ends with the value 0
  */
-#include <stdio.h>
-
 int main(void)
 
 {
