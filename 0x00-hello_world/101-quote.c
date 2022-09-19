@@ -1,7 +1,8 @@
 /**
- * main - function = char
- * Return =Always 1
-*/
+ * main - Entry point
+ *
+ * Return: Always 1
+ */
 
 #include <unistd.h>
 
