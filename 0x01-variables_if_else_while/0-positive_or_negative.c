@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /*
- * main - printf: whether the number stored in the variabl
+ * main - prints: whether the number stored in the variabl
  n is positive or negative.
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	int n;
