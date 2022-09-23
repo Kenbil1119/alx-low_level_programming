@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
+ * main - function:  "printf"
  * main - prints whether the number stored in the variabl
  *	n is positive or negative.
  *
