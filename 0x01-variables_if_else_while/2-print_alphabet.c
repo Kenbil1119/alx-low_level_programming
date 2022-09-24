@@ -5,7 +5,7 @@
  * main - function: "putchar"
  * main - prints The alphabet in lowercase
  *
- * Return = Always (0)
+ * Return: Always (0)
  */
 
 int main(void)
