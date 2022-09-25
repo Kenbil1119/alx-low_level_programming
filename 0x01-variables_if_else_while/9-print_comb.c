@@ -11,18 +11,20 @@
 
 int main(void)
 {
-	int n = 15;
+	int n;
+	
+	n = 48;
 
-	while (n < 38)
+	while (n < 58)
 	{
 		putchar(n);
-		if (n != 38)
+		if (n != 57)
 		{
+			putchar(44);
 			putchar(32);
-			putchar(34);
 		}
 		n++;
 	}
-	putchar((n % 10) + '0');
+	putchar(10);
 return (0);
 }
