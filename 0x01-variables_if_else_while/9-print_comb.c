@@ -23,6 +23,6 @@ int main(void)
 		}
 		n++;
 	}
-	putchar(10);
+	putchar((n % 10) + '0');
 return (0);
 }
