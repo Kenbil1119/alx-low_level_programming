@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - Entry point
  *
- * Function: puts
+ * Function: printf
  *
  * Conditional Statement:
  * Loop Statement:
@@ -14,6 +13,7 @@
 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+
 	return (0);
 }
