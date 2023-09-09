@@ -17,7 +17,6 @@ int main(void)
 
 
 	write(2, str, sizeof(str));
-	putchar(10);
 
 	return (1);
 }
