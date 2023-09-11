@@ -3,25 +3,31 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * main - Function: printf strand
- * main - Keyword: void
- * main - Data type: int
+ * print_n - Invoke and prints 'n'
  *
- * Conditonal Statement: if-else
- * Loop Statement:
+ * print_n - Function: printf
+ * print_n - Data type: int
  *
- * print_n: new function to invoke 'n'
+ * print_n: new define function to invoke and prints 'n'
  *
  * @var: prototype member
  *
- * main - Return: 0
+ * Return: void
  */
 
 void print_n(int var)
 {
 	printf("%d", var);
 }
+
+/**
+ * main - Entry point
+ *
+ * main - Function: printf, srand
+ * main - invoke print_n and print if 'n' is positive or negative
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
