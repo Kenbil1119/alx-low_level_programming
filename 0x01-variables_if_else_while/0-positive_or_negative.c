@@ -4,12 +4,24 @@
 
 /**
  * main - Entry point
+ * main - Function: printf strand
+ * main - Keyword: void
+ * main - Data type: int
  *
- * Conditional Statement: if-else
+ * Conditonal Statement: if-else
  * Loop Statement:
  *
- * Return: Always 0
+ * print_n: new function to invoke 'n'
+ *
+ * @var: prototype member
+ *
+ * main - Return: 0
  */
+
+void print_n(int var)
+{
+	printf("%d", var);
+}
 
 int main(void)
 {
@@ -17,15 +29,23 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
-		printf("%d is positive\n, n");
+	if (n < 0)
+	{
+		print_n(n);
+		printf("is negative\n");
+	}
 	else
 	{
 		if (n == 0)
-			printf("%d is zero\n, n");
+		{
+			print_n(n);
+			printf("is zero\n");
+		}
 		else
-			printf("%d is negative\n, n");
+		{
+			print_n(n);
+			printf("is positive\n");
+		}
 	}
 	return (0);
 }
