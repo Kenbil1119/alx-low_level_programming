@@ -32,19 +32,19 @@ int main(void)
 	if (n < 0)
 	{
 		print_n(n);
-		printf("is negative\n");
+		printf(" is negative\n");
 	}
 	else
 	{
 		if (n == 0)
 		{
 			print_n(n);
-			printf("is zero\n");
+			printf(" is zero\n");
 		}
 		else
 		{
 			print_n(n);
-			printf("is positive\n");
+			printf(" is positive\n");
 		}
 	}
 	return (0);
