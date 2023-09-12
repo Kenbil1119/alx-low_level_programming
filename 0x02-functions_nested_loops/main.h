@@ -18,3 +18,26 @@ void print_putchar(void)
 {
 	printf("_putchar");
 }
+
+/**
+ * print_alphabet - print alphabet "a - z"
+ *
+ * Function: putchar
+ * Data - type: char
+ *
+ * Loop Statement: for
+ *
+ * print_alphabet: prints all lowercase characters of alphabet
+ *
+ * Return - type: void
+ * Return:
+ */
+
+void print_alphabet(void)
+{
+	char alpha;
+	
+	for(alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
+	putchar(10);
+}
