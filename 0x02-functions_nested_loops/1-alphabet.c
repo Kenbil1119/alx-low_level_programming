@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "alphabet.h"
 
 /**
  * main - Entry point
