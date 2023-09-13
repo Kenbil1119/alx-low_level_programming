@@ -2,31 +2,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet
- *
- * Function: putchar()
- * Data Type: char
- *
- * Loop Statement: for
- *
- * Return Type: void
- */
-
-void print_alphabet(void)
-{
-	char alpha;
-
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);
-	putchar(10);
-}
-
-/**
  * main - Entry point
  *
- * main - Function: print_alphabet
+ * main - Function: print_alphabet, putchar
  *
- * main - call print_alphabet to the standard output
+ * main - call print_alphabet to prints all lowercase alphabet
+ *			to the standard output
  *
  * Return: 0
  */
@@ -34,6 +15,7 @@ void print_alphabet(void)
 int main(void)
 {
 	print_alphabet();
+	putchar(10);
 
 	return (0);
 }

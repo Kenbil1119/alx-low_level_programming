@@ -20,3 +20,15 @@ void print_putchar(void)
 {
 	printf("_putchar");
 }
+
+/**
+ * print_alphabet - print all alphabet
+ */
+
+void print_alphabet(void)
+{
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
+}
