@@ -2,6 +2,26 @@
 #include "main.h"
 
 /**
+ * print_alphabet - print alphabet
+ *
+ * Function: putchar()
+ * Data Type: char
+ *
+ * Loop Statement: for
+ *
+ * Return Type: void
+ */
+
+void print_alphabet(void)
+{
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
+	putchar(10);
+}
+
+/**
  * main - Entry point
  *
  * main - Function: print_alphabet
