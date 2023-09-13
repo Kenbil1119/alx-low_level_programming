@@ -1,5 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef stdio
+#define stdio
+#include <stdio.h>
 
 void print_putchar(void);
 void print_alphabet(void);
