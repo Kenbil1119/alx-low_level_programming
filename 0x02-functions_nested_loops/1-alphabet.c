@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include "main.h"
-#include "alphabet.h"
+
+/**
+ * print_alphabet - prints all alphabet
+ */
+
+void print_alphabet(void)
+{
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
+	putchar(10);
+}
 
 /**
  * main - Entry point
@@ -16,7 +28,6 @@
 int main(void)
 {
 	print_alphabet();
-	putchar(10);
 
 	return (0);
 }
