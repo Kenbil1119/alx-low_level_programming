@@ -4,6 +4,8 @@
  * _putchar - prints newline
  *
  * Function: putchar()
+ *
+ * @ch: character prototype
  */
 
 void _putchar(char ch)
