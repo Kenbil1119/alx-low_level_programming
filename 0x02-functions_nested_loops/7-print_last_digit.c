@@ -3,14 +3,16 @@
 /**
  * print_last_digit - Execute (pld % 10)
  *
- * @pld: integer prototype to check its last digit
+ * @num: integer prototype to check its last digit
  *
  * Return: last digit
  */
 
-int print_last_digit(int pld)
+int print_last_digit(int num)
 {
-	pld = (pld % 10);
+	int pld;
+
+	pld = (num % 10);
 
 	return (pld);
 }
