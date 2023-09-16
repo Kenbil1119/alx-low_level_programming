@@ -14,7 +14,10 @@
 
 int main(void)
 {
-	print_last_digit();
+	int num;
+
+	num = print_last_digit(87);
+	printf("%d", num);
 	_putchar(10);
 
 	return (0);
