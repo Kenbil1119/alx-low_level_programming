@@ -14,7 +14,10 @@
 
 int main(void)
 {
+	int ch;
+
 	print_last_digit();
+	_putchar(ch);
 	_putchar(10);
 
 	return (0);
