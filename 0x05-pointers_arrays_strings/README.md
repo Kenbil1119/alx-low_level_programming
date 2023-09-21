@@ -13,7 +13,7 @@ This directory contains a collection of C programs that demonstrate the usage of
 
 ## Test Programs
 
-###This directory contains program files to test each main program. Each test program file was named with a prefix that match the prefix of main program file that was put to test.
+### This directory contains program files to test each main program. Each test program file was named with a prefix that match the prefix of main program file that was put to test.
 
 1. 0-test.c
 2. 1-test.c
