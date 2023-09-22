@@ -8,21 +8,21 @@
  *			pointer 'b'
  * @b: Second parameter, pointer to get a new value from
  *			pointer 'a' through pointer 'c'
- * c: A pointer declear to save the old value of pointer 'a'
+ * temp: A temporary varaible to save the old value of pointer 'a'
  *
  * swap_int: This function is to swap the value of
- *i		two integer variables through pointers
+ *		two integer variables through pointers
+ *		with the help of 'temp' variable, it is possible
+ *		to temporarily save the value of 'a'
+ *		somewhere (temp variable)
  */
 
 void swap_int(int *a, int *b)
 {
-	int *c;
+	int temp;
 
-	*c = *a;
+	temp = *a;
+	*a = *b;
+	*b = temp;
 
-	{
-		*a = *b;
-	}
-
-	*b = *c;
 }
