@@ -9,7 +9,9 @@ This directory include the following programs.
 
 1. main.h
 2. 0-reset_to_98.c
-3. 1-swp.c
+3. 1-swap.c
+### 2-strlen.c
+5. \_putchar.c
 
 ## Test Programs
 
@@ -17,6 +19,7 @@ This directory contains program files to test each main program. Each test progr
 
 1. 0-test.c
 2. 1-test.c
+3. 2-test.c
 
 ## Executable Files
 
@@ -24,3 +27,5 @@ This directory also include an executable file, to test each program. Each execu
 
 1. 0-test
 2. 1-test
+3. 2-test
+
