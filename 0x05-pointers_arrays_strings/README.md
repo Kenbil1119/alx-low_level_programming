@@ -10,7 +10,7 @@ This directory include the following programs.
 1. main.h
 2. 0-reset_to_98.c
 3. 1-swap.c
-### 2-strlen.c
+4. 2-strlen.c
 5. \_putchar.c
 
 ## Test Programs

@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-/** _putchar - To call putchar()
+/**
+ * _putchar - To call putchar()
  *
  * Function: putchar()
  *
