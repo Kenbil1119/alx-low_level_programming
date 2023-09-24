@@ -10,32 +10,32 @@ Welcome to my directory: '0x06-pointers_arrays_strings'. This directory contains
 ### 4. Header Files
 ### 5. Other Programs And Files
 
-# 1.\#\# Main Programs
+## Main Programs
 
 This directory include the following program files
 
 #### 1. 0-strcat.c
 
-# 2.\#\# Test Programs
+## Test Programs
 
 This directory also include some program that put the main program into testing.
 Each test program, has a prefix (number) that match its Main Program that was test.
 
 #### 1. 0-test.c
 
-# 3.\#\# Executable Files
+## Executable Files
 
 The output of the Test Program File are also included in this directory.
 Each file starting with a prefix (number) that match its source file (test file).
 
 #### 1. 0-test
 
-# 4.\#\# Header Files
+## Header Files
 
 The below are the header files used in the programs
 
 #### 1. main.h
 
-# 5.\#\# Other Programs And Files
+## Other Programs And Files
 
 #### 1. \_putchar.c
