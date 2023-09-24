@@ -8,7 +8,7 @@ Welcome to my directory: '0x06-pointers_arrays_strings'. This directory contains
 ### 2. Test Programs
 ### 3. Executable Files
 ### 4. Header Files
-### 5. Other Programs And Files
+### 5. Custom Programs
 
 ## Main Programs
 
@@ -36,6 +36,7 @@ The below are the header files used in the programs
 
 #### 1. main.h
 
-## Other Programs And Files
+## Custom Programs
 
 #### 1. \_putchar.c
+#### 2. \_puts.c

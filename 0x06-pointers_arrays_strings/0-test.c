@@ -13,15 +13,15 @@
 
 int main(void)
 {
-	char str1[50] = "Hello, World!";
+	char str1[50] = "Hello, World! ";
 	char str2[] = "ALX School is so cool!";
 
 	printf("str1: %s\n", str1);
 	printf("str2: %s\n", str2);
 
-	putchar(10);
-
-	puts("After calling '_strcat()'\n");
+	_putchar(10);
+	
+	_puts("After calling '_strcat()'\n");
        
 	_strcat(str1, str2);
 

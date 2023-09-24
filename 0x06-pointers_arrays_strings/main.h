@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char _strcat(char *dest, char *str);
+void _putchar(char ch);
+void _puts(char *str);
+char _strcat(char *dest, char *src);
 
 #endif
