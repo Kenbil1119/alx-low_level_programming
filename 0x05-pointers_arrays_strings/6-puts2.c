@@ -11,8 +11,6 @@
  * @str: Character pointer parameter to get string
  *
  * Loop Statement - for: iterate 'i' to get each elememts of str
- * Cobditional Statement - if: put each element in check before
- *			it is divisible by 2
  */
 
 void puts2(char *str)
@@ -20,12 +18,8 @@ void puts2(char *str)
 	int i = 0;
 	int n = strlen(str);
 
-	for (i = 0; i <= n; i++)
-	{
-		if (i % 2 != 0)
-			continue;
+	for (i = 0; i <= n; (i += 2))
 		_putchar(str[i]);
-	}
 
 	_putchar(10);
 }
