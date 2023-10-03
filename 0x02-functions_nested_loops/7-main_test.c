@@ -18,7 +18,7 @@ int main(void)
 
 	num = print_last_digit(87);
 	printf("%d\n", num);
-	printf("last digit of 0 is %d\n", print_last_digit(0));
+	printf("last digit of 0 is %d\n", print_last_digit(-1024));
 
 	return (0);
 }
