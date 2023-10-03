@@ -3,10 +3,9 @@
 #include <limits.h>
 
 /**
- * main - print_last_digit
+ * main - Call print_last_digit
  *
- * Function: print_last_digit, _putchar
- * Data Type: int
+ * Function: print_last_digit(), _putchar(), _puts()
  *
  * main: Prints last digit by calling the print_last_digit()
  *
@@ -15,13 +14,19 @@
 
 int main(void)
 {
-	int num;
+	_puts("Testing 7-print_last_digit.c");
 
-	num = print_last_digit(87);
-	printf("%d\n", num);
-	printf("last digit of -1024 is %d\n", print_last_digit(-1024));
-	printf("Last digit of INT_MAX is: %d\n", print_last_digit(INT_MAX));
-	printf("Last digit of INT_MIN is: %d\n", print_last_digit(INT_MIN));
-	
+	printf("last digit of -1024 is: ");
+	print_last_digit(-1024);
+	_putchar(10);
+
+	printf("Last digit of INT_MAX is: ");
+	print_last_digit(INT_MAX);
+	_putchar(10);
+
+	printf("Last digit of INT_MIN is: ");
+	print_last_digit(INT_MIN);
+	_putchar(10);
+
 	return (0);
 }
