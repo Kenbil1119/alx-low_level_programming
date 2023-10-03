@@ -4,15 +4,15 @@
 /**
  * print_last_digit - Execute (pld % 10)
  *
- * @num: integer prototype to check its last digit
+ * @last: Integer prototype
+ *		to check that input number is 'int' data_type
  *
  * Return: last digit
  */
 
-int print_last_digit(int num)
+int print_last_digit(int last)
 {
-	int last;
-	last = num % 10;
+	last %= 10;
 	if (last < 0)
 		return (last * -1);
 	return (last);
