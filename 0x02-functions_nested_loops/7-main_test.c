@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <limits.h>
 
 /**
  * main - print_last_digit
@@ -19,6 +20,8 @@ int main(void)
 	num = print_last_digit(87);
 	printf("%d\n", num);
 	printf("last digit of -1024 is %d\n", print_last_digit(-1024));
-
+	printf("Last digit of INT_MAX is: %d\n", print_last_digit(INT_MAX));
+	printf("Last digit of INT_MIN is: %d\n", print_last_digit(INT_MIN));
+	
 	return (0);
 }
