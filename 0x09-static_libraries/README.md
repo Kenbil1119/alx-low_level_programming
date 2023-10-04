@@ -1,19 +1,29 @@
 # C Static Libraries
 
-Welcome to my directory: '0x09-static_libraries'.
-This directory contains a collection of C programs that demonstrate the usage of static libraries in C programming.
+Welcome to my directory!
 
-## Main Programs
+This directory showcase the usage of Static Libraries in C language.
+each program file has it object extracted.
 
-This directory include the following programs.
 
-1. main.h
-2. \_putchar.c
-
-## Test Programs
-
-This directory contains program files to test each main program. Each test program file was named with a prefix that match the prefix of main program file that was put to test
-
-## Executable Files
-
-This directory also include an executable file, to test each program. Each executable file have a prefix that match it source test file.
+0-isupper.c
+0-memset.c
+0-strcat.c
+100-atoi.c
+1-isdigit.c
+1-memcpy.c
+1-strncat.c
+2-strchr.c
+2-strlen.c
+2-strncpy.c
+3-islower.c
+3-puts.c
+3-strcmp.c
+3-strspn.c
+4-isalpha.c
+4-strpbrk.c
+5-strstr.c
+6-abs.c
+9-strcpy.c
+main.c
+_putchar.c
