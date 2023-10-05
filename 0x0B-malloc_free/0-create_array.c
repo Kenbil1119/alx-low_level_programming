@@ -18,7 +18,10 @@ char *create_array(unsigned int size, char c)
 {
 	char *s;
 
-	s = &c;
+	if (c != NULL)
+	{
+		s = &c;
+	}
 
 	if (size > 0)
 	{
