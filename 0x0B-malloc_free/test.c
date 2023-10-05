@@ -1,24 +1,24 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * main - check the code for ALX School students.
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
 {
-	 char *str, str_arr[6] = "Hello";
-	 int i = 0;
+    char *s;
 
-	 str = create_array(5, str_arr[0]);
-
-	 do
-	 {
-		 str[i] = str_arr[i];
-		 i++;
-		 _putchar(str[i]);
-	 }
-	 while (i <= 5);
-	 _putchar(10);
-
-	 free(str);
-
-	 return  (0);
+    s = _strdup("ALX SE");
+    if (s == NULL)
+    {
+        printf("failed to allocate memory\n");
+        return (1);
+    }
+    printf("%s\n", s);
+    free(s);
+    return (0);
 }
