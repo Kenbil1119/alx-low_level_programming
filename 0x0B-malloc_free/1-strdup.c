@@ -14,7 +14,7 @@
 
 char *_strdup(char *str)
 {
-	char *s = strdup(str);
+	const char *s = strdup(str);
 
 	if (str == NULL)
 	{
