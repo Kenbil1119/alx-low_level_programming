@@ -16,7 +16,7 @@ char *_strdup(char *str)
 {
 	char *s = strdup(str);
 
-	if (*s == ' ')
+	if (str == NULL)
 	{
 		return (NULL);
 	}
