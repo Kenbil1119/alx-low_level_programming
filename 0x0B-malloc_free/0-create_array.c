@@ -19,11 +19,6 @@ char *create_array(unsigned int size, char c)
 	char *s;
 	s = &c;
 
-	if (c == '\0')
-	{
-		return (NULL);
-	}
-
 	if (size == 0)
 	{
 		return (NULL);
