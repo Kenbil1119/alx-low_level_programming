@@ -14,7 +14,7 @@
 
 char *_strdup(char *str)
 {
-	const char *s = strdup(str);
+	char *s = strdup(str);
 
 	if (str == NULL)
 	{
@@ -23,5 +23,5 @@ char *_strdup(char *str)
 
 	s = malloc(sizeof(*str) - 1);
 
-	return (s);
+	return (*s);
 }
