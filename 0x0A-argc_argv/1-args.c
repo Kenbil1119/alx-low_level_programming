@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * main - Print the number of arguments from pass from
@@ -19,7 +18,7 @@
 int main(int argc, char *argv[])
 {
 	if (argv[0] != NULL)
-		printf("%d\n", argc);
+		printf("%d\n", argc - 1);
 
 	exit(EXIT_SUCCESS);
 }
