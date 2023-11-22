@@ -11,6 +11,11 @@
  *	on the command line and save it as an element
  *	of array.
  *
+ * Conditional Statement - if: Check if argument was
+ *				passed to the code
+ *	(The condition is set to silence the compiler
+ *	error message for unused variable)
+ *
  * Return: 0
  *
  * Author: Usman Saheed .K
@@ -18,7 +23,8 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc - 1]);
+	if (argc >= 0)
+		printf("%s\n", argv[0]);
 
 	return (0);
 }
