@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
 		return (0);
 	}
-	
+
 	if (argc == 2)
 	{
 		printf("0\n");
