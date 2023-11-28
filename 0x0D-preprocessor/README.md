@@ -23,6 +23,16 @@ Defines a function-like macro.
 ### 4-sum.h
 Illustrates the use of function-like macros in performing addition.
 
+### main test files
+Test files are files use in testing each program/Header file.
+each program has its own test file having the same prefix.
+
+#### 0-test.c
+#### 1-test.c
+#### 2-main.c
+#### 3-test.c
+#### 4-test.c
+
 ## Compilation and Execution:
 
 To compile and execute these files, follow the steps below:
