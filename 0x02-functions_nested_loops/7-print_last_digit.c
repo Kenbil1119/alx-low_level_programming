@@ -16,16 +16,7 @@
 
 int print_last_digit(int num)
 {
-	num %= 10;
+	printf("%d", num % 10);
 
-	if (num < 0)
-	{
-		printf("%d", -num);
-
-		return (-num);
-	}
-
-	printf("%d", num);
-
-	return (num);
+	return (num % 10);
 }
