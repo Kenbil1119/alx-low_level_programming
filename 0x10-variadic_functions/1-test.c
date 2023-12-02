@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	print_numbers(", ", 4, 1, 2, 3, 4);
+	print_numbers(", ", 0);
 
 	return (0);
 }
