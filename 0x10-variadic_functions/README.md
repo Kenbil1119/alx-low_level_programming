@@ -23,12 +23,17 @@ A program that defines a function ```print_all()``` which prints anything, based
 
 To compile and execute these programs, follow the steps below:
 
-1. Open a terminal.
+1. Open a terminal, and clone this directory with the command below:
+
+```bash
+git clone https://github.com/Kenbil1119/alx-low_level_programming/0x10-variadic_functions.git
+```
+
 2. Navigate to the directory containing these files.
 3. Use the following commands:
 
 ```bash
-gcc -Wall -pedantic -Werror -Wextra *.c -o variadic_functions
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 *.c -o variadic_functions
 ./variadic_functions
 ```
 
