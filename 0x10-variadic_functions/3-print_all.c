@@ -37,6 +37,8 @@ void print_all(const char * const format, ...)
 					str = "(nil)";
 				printf("%s", str);
 				break;
+			default :
+				_putchar(10);
 		}
 		if (i != strlen(format) - 1)
 			printf(", ");
