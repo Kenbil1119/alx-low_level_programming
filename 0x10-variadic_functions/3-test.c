@@ -10,5 +10,7 @@ int main(void)
 {
 	print_all("fics", 3.14159265359, 22, 'A', "pi");
 
+	print_all("ghhghhhd");
+
 	return (0);
 }
