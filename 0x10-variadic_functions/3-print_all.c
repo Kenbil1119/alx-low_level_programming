@@ -92,5 +92,5 @@ int check_format(const char *format, unsigned int i)
 		printf(", ");
 		return (0);
 	}
-	return (-1);
+	return (0);
 }
