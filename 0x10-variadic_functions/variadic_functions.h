@@ -10,5 +10,7 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 void _putchar(char ch);
+int check_string(char *str);
+int check_format(const char *format, unsigned int i);
 
 #endif
