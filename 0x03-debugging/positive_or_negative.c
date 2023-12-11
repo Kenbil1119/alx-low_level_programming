@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * charge - check the charge on an integer data
+ * positive_or_negative - check the charge on an integer data
  *
  * @i: Integer data to check
  *

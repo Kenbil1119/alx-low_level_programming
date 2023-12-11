@@ -16,16 +16,12 @@
 
 int print_last_digit(int num)
 {
-	num %= 10;
+	int last_digit = num % 10;
 
-	if (num < 0)
-	{
-		printf("%d", -num);
+	if (last_digit < 0)
+		last_digit *= -1;
 
-		return (-num);
-	}
+	_putchar(last_digit + 48);
 
-	printf("%d", num);
-
-	return (num);
+	return (last_digit);
 }
