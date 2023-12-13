@@ -16,12 +16,14 @@
  * @owner: Parameter pointer to initialize "d.owner" of struct
  *		data type pointing to variable "owner" in the
  *		"dog" structure data
+ *
+ * Return: void
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
-		exit(EXIT_FAILURE);
+		return;
 
 	d->name = name;
 	d->age = age;
