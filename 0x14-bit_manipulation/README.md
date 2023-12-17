@@ -1,4 +1,3 @@
-```
 # Bit Manipulation In C
 
 Welcome to my directory: **0x14-bit_manipulation**.
@@ -23,7 +22,7 @@ This directory contains C programs for bit manipulation.
 
 6. **5-flip_bits.c**
    - Function that returns the number of bits needed to flip to convert one number to another.
-```
+
 ## How to use:
 
 1. Compile the C files using your preferred compiler.
