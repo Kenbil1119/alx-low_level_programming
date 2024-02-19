@@ -17,18 +17,19 @@
 
 int main(void)
 {
-	int i, j  = 1, k, fibon = 1;
+	int i;
+	long int j  = 1, k, fibon = 1;
 
-	printf("%d, ", fibon);
-	for (i = 0; i < 50; i++)
+	printf("%ld, ", fibon);
+	for (i = 0; i < 49; i++)
 	{
 		k = fibon;
 
 		fibon += j;
-		if (i == 49)
-			printf("%d\n", fibon);
+		if (i == 48)
+			printf("%ld\n", fibon);
 		else
-			printf("%d, ", fibon);
+			printf("%ld, ", fibon);
 		j = k;
 	}
 
