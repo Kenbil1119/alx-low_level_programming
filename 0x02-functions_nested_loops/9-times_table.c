@@ -36,10 +36,13 @@ void times_table(void)
 					_putchar(' ');
 				}
 			}*/
-			if (j != 9)
-				printf("%3d, ", n);
+			if (j == 9)
+				printf("%2d", n);
 			else
-				printf("%3d", n);
+				if (j == 0)
+					printf("%d, ", n);
+				else
+					printf("%2d, ", n);
 		}
 		_putchar('\n');
 	}
