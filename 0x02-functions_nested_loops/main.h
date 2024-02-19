@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
 void _putchar(char ch);
 void _puts(char *s);
 void print_putchar(void);
@@ -12,5 +14,6 @@ int print_sign(int n);
 int _abs(int ch);
 int print_last_digit(int);
 void jack_bauer(void);
+void times_table(void);
 
 #endif
