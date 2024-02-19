@@ -5,11 +5,13 @@
  *
  * @a: First Integer number
  * @b: Second Integer number
+ *
+ * Return: Sum of a and b
  */
 
 int add(int a, int b)
 {
-	printf("%d\n", a + b);
+	int sum = a + b;
 
-	return(a + b);
+	return(sum);
 }
