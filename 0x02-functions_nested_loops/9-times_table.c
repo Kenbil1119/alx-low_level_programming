@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * times_table - Function to print 9 times table
+ */
+
 /*
 int _last_digit(int num);
 int _first_digit(int num);
@@ -37,14 +41,13 @@ void times_table(void)
 				}
 			}*/
 			if (j == 9)
-				printf("%2d", n);
+				printf("%2d\n", n);
 			else
 				if (j == 0)
 					printf("%d, ", n);
 				else
 					printf("%2d, ", n);
 		}
-		_putchar('\n');
 	}
 }
 /*
