@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * times_table - Function to print 9 times table
+ * print_times_table - Function to print 9 times table
+ *
+ * @n: Integer parameter
  */
 
 void print_times_table(int n)
@@ -14,12 +16,12 @@ void print_times_table(int n)
 		{
 			k = i * j;
 			if (j == n)
-				printf("%2d\n", k);
+				printf("%3d\n", k);
 			else
 				if (j == 0)
 					printf("%d, ", k);
 				else
-					printf("%2d, ", k);
+					printf("%3d, ", k);
 		}
 	}
 }

@@ -13,7 +13,7 @@ int main(void)
 	putchar(10);
 	print_times_table(12);
 	putchar(10);
-	print_times_table(20);
+	print_times_table(2);
 
-	return(0);
+	return (0);
 }
