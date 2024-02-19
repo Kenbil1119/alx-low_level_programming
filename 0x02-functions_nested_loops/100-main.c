@@ -14,6 +14,9 @@ int main(void)
 	print_times_table(12);
 	putchar(10);
 	print_times_table(2);
+	print_times_table(0);
+	putchar(10);
+	print_times_table(100);
 
 	return (0);
 }
