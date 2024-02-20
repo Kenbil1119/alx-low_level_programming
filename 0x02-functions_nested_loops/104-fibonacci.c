@@ -22,7 +22,7 @@ int main(void)
 
 	printf("%ld, ", j);
 	printf("%ld, ", fibon);
-	for (i = 3; i <= 95; i++)
+	for (i = 3; i <= 85; i++)
 	{
 		k = fibon;
 
