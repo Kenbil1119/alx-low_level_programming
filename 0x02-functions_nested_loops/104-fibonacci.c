@@ -17,23 +17,23 @@
 
 int main(void)
 {
-	/*int i;*/
-	long int j  = 1, fibon = 2;
+	int i;
+	unsigned int j  = 1, k, fibon = 2;
 
-	printf("%ld, ", j);
-	printf("%ld, ", fibon);
-	/*
-	for (i = 3; i <= 88; i++)
+	printf("%u, ", j);
+	printf("%u, ", fibon);
+
+	for (i = 3; i <= 98; i++)
 	{
 		k = fibon;
 
 		fibon += j;
-		if (i == 95)
-			printf("%ld\n", fibon);
+		if (i == 98)
+			printf("%u\n", fibon);
 		else
-			printf("%ld, ", fibon);
+			printf("%u, ", fibon);
 		j = k;
-	}*/
+	}
 
 	return (0);
 }
