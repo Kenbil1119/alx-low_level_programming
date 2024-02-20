@@ -33,7 +33,7 @@ int main(void)
 			sum += fibon;
 		i++;
 	}
-	printf("%ld", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
