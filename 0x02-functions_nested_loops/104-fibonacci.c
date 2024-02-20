@@ -22,12 +22,12 @@ int main(void)
 
 	printf("%ld, ", j);
 	printf("%ld, ", fibon);
-	for (i = 3; i <=98; i++)
+	for (i = 3; i <= 95; i++)
 	{
 		k = fibon;
 
 		fibon += j;
-		if (i == 98)
+		if (i == 95)
 			printf("%ld\n", fibon);
 		else
 			printf("%ld, ", fibon);
