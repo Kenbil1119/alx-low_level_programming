@@ -18,7 +18,7 @@
 int main(void)
 {
 	int i;
-	long unsigned int j  = 1, k, fibon = 2;
+	unsigned long int j  = 1, k, fibon = 2;
 
 	printf("%lu, ", j);
 	printf("%lu, ", fibon);
