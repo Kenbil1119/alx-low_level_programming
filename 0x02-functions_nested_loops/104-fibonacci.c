@@ -18,15 +18,16 @@
 int main(void)
 {
 	int i;
-	long int j  = 1, k, fibon = 1;
+	long int j  = 1, k, fibon = 2;
 
+	printf("%ld, ", j);
 	printf("%ld, ", fibon);
-	for (i = 0; i < 97; i++)
+	for (i = 3; i <=98; i++)
 	{
 		k = fibon;
 
 		fibon += j;
-		if (i == 97)
+		if (i == 98)
 			printf("%ld\n", fibon);
 		else
 			printf("%ld, ", fibon);
