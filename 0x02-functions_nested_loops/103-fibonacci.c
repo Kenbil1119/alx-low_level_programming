@@ -22,7 +22,8 @@ int main(void)
 	long int j  = 1, k, fibon = 1;
 	long int sum = 0;
 
-	for (i = 0; i < 49; i++)
+	i = 0;
+	while (fibon <= 4000000)
 	{
 		k = fibon;
 
@@ -30,6 +31,7 @@ int main(void)
 		j = k;
 		if (fibon % 2 == 0)
 			sum += fibon;
+		i++;
 	}
 	printf("%ld", sum);
 
