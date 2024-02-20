@@ -18,10 +18,10 @@
 int main(void)
 {
 	int i;
-	unsigned int j  = 1, k, fibon = 2;
+	long unsigned int j  = 1, k, fibon = 2;
 
-	printf("%u, ", j);
-	printf("%u, ", fibon);
+	printf("%lu, ", j);
+	printf("%lu, ", fibon);
 
 	for (i = 3; i <= 98; i++)
 	{
@@ -29,9 +29,9 @@ int main(void)
 
 		fibon += j;
 		if (i == 98)
-			printf("%u\n", fibon);
+			printf("%lu\n", fibon);
 		else
-			printf("%u, ", fibon);
+			printf("%lu, ", fibon);
 		j = k;
 	}
 
