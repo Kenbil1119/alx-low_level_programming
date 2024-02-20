@@ -17,11 +17,12 @@
 
 int main(void)
 {
-	int i;
-	long int j  = 1, k, fibon = 2;
+	/*int i;*/
+	long int j  = 1, fibon = 2;
 
 	printf("%ld, ", j);
 	printf("%ld, ", fibon);
+	/*
 	for (i = 3; i <= 88; i++)
 	{
 		k = fibon;
@@ -32,7 +33,7 @@ int main(void)
 		else
 			printf("%ld, ", fibon);
 		j = k;
-	}
+	}*/
 
 	return (0);
 }
