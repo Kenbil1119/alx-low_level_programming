@@ -1,45 +1,30 @@
 #include "main.h"
 
 /**
- * more_numbers - Function invoke
- *	"print_numbers" to print the first 10
- *	digit character of ascii
- *	and print more numbers, upto '14'.
+ * more_numbers - Print the first 10 digit character of
+ *	ascii and print more numbers, upto '14'.
+ *
+ * Description: If number is greater than 9, '1' is print
+ *		before the modulo of number.
+ *
+ *		'48' is used to convert the number to
+ *		its ascci character ('0' == 48).
  *
  * Return: 0
  */
 
 void more_numbers(void)
 {
-	int i;
-	char j;
+	int num, i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 1; i <= 10 ; i++)
 	{
-		print_numbers();
-		for (j = '0'; j <= '4'; j++)
+		for (num = 0; num <= 14; num++)
 		{
-			_putchar('1');
-			_putchar(j);
+			if (num > 9)
+				_putchar('1');
+			_putchar((num % 10) + 48);
 		}
 		_putchar(10);
 	}
-
-	return (0);
-}
-
-/**
- * print_numbers - Prints number from 0 to 9
- *
- * Loop Statement - for: iterate num
- *
- * Author: Usman Saheed .K (uskehinde@gmail.com)
- */
-
-void print_numbers(void)
-{
-	char num;
-
-	for (num = '0'; num <= '9'; num++)
-		_putchar(num);
 }
