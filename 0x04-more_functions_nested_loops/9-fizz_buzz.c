@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Print "Fizzbuzz" if a number in the range of
@@ -29,9 +29,9 @@ int main(void)
 					printf("%d", i);
 		}
 		if (i != 100)
-			_putchar(' ');
+			putchar(' ');
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
