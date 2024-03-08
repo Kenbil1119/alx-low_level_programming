@@ -9,27 +9,27 @@
 
 int main(void)
 {
-	const long int num = 612852475143;
+	unsigned long int num = 612852475143;
+	unsigned long int prime = 1;
+	unsigned long int i = 3;
 
-	long int factor = 1, i, j;
-
-	for (i = 1; i < num; i++)
+	while (i <= num)
 	{
-		if (num % i == 0)
-		{
-			for (j = 2; j <= i; j++)
-			{
-				if (i % j == 0)
-				{
-					if (j == i)
-						factor = i;
-				}
-			}
-		}
-	}
+		i += 2;
 
-	printf("%ld\n", factor);
+		if (i % 3 != 0)
+			prime = i;
+		else
+			continue;
+	}
+	printf("%ld", prime);
 
 	return (0);
 }
+
+/*
+ * esle, skip
+ */
+
+/* print sum of prime */
 
