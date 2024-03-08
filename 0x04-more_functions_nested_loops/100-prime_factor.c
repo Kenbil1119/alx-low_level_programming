@@ -9,27 +9,21 @@
 
 int main(void)
 {
-	unsigned long int num = 612852475143;
-	unsigned long int prime = 1;
-	unsigned long int i = 3;
+	long num = 612852475143;
+	long prime;
 
-	while (i <= num)
+	while(num--)
 	{
-		i += 2;
-
-		if (i % 3 != 0)
-			prime = i;
-		else
+		if((num % 2 == 0) || (num % 3 == 0))
 			continue;
+		else
+		{
+			prime = num;
+			break;
+		}
 	}
-	printf("%ld", prime);
+
+	printf("%ld\n", prime);
 
 	return (0);
 }
-
-/*
- * esle, skip
- */
-
-/* print sum of prime */
-
