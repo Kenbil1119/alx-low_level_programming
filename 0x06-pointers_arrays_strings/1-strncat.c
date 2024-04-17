@@ -23,7 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 	if (n == 0)
 		return (dest);
 
-	if (src == NULL)
+	if (src == NULL || dest == NULL)
 		return (dest);
 
 	for (i = 0, j = dest_size; i < n; i++, j++)
