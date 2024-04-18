@@ -23,15 +23,11 @@ char *_strncat(char *dest, char *src, int n)
 	if (n <= 0)
 		return (dest);
 
-	if (src == '\0')
+	if (src == NULL)
 		return (dest);
 
 	for (i = 0, j = dest_size; i < n; i++, j++)
-	{
-		/*if (i == '\0')
-			break;*/
 		copy_str[j] = src[i];
-	}
 
 	return (copy_str);
 }
