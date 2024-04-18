@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	dest_size = strlen(dest);
 
-	if (n == 0)
+	if (n <= 0)
 		return (dest);
 
 	if (src == NULL)
@@ -32,7 +32,6 @@ char *_strncat(char *dest, char *src, int n)
 			break;
 		copy_str[j] = src[i];
 	}
-	copy_str[++j] = '\0';
 
 	return (copy_str);
 }
