@@ -24,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 		return (dest);
 
 	if (dest == NULL && src == NULL)
-		return('\0');
+		return (NULL);
 
 	if (src == NULL)
 		return (dest);
