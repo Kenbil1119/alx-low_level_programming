@@ -6,7 +6,7 @@
  *
  * @str: Pointer pointing to a string sourse
  *
- * Return: Resulted String after conversion
+ * Return: Resulted String after conversion to Uppercase
  */
 
 char *string_toupper(char *str)
