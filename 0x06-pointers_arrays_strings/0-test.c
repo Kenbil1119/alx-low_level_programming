@@ -20,9 +20,9 @@ int main(void)
 	printf("str2: %s\n", str2);
 
 	_putchar(10);
-	
+
 	_puts("After calling '_strcat()'\n");
-       
+
 	_strcat(str1, str2);
 
 	printf("str1: %s\n", str1);

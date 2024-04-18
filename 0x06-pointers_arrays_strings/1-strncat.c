@@ -28,8 +28,8 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0, j = dest_size; i < n; i++, j++)
 	{
-		if (i == '\0')
-			break;
+		/*if (i == '\0')
+			break;*/
 		copy_str[j] = src[i];
 	}
 
