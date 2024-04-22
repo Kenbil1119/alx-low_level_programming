@@ -20,6 +20,9 @@ char *_strncat(char *dest, char *src, int n)
 
 	dest_size = strlen(dest);
 
+	if (dest_size < n)
+		return (dest);
+
 	if (n <= 0)
 		return (dest);
 
