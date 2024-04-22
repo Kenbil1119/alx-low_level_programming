@@ -15,19 +15,19 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j, dest_size = 0;
+	int i, j, dest_size = 0, src_size = 0;
 	char *copy_str = dest;
 
 	dest_size = strlen(dest);
-
-	if (dest_size < n)
-		return (dest);
+	src_size = strlen(src);
 
 	if (n <= 0)
 		return (dest);
 
 	if (src == NULL)
 		return (dest);
+	if (n >= src_size)
+		n = src_size;
 
 	for (i = 0, j = dest_size; i < n; i++, j++)
 		copy_str[j] = src[i];
