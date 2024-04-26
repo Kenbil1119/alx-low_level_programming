@@ -1,27 +1,19 @@
 #include "main.h"
 
 
-/*
+/**
+ * _strncpy - Invoke strncpy
  *
+ * @dest: Pointer pointing to a string
+ * @src: Pointer pointing to a string source
+ * @n: Number of byte(s) to copy
+ *
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
-
-	int src_size = strlen(src);
-
-	if (src == NULL)
-		return (dest);
-
-	if (n <= 0)
-		return (dest);
-
-	if (n >= src_size)
-		n = src_size;
-
-	for (i = 0; i < n; i++)
-		dest[i] = src[i];
+	strncpy(dest, src, n);
 
 	return (dest);
 }
