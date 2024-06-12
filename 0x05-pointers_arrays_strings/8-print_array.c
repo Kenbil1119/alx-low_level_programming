@@ -12,15 +12,15 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	if ((sizeof / int*) == 0)
+	if (a == NULL)
 	{
-		printf('\n');
+		printf("\n");
 		return;
 	}
 
 	if (n < 0)
 	{
-		printf('\n');
+		printf("\n");
 		return;
 	}
 
