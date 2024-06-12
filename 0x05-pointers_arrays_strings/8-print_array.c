@@ -18,7 +18,7 @@ void print_array(int *a, int n)
 		return;
 	}
 
-	if (n < 1) 
+	if (n < 1)
 	{
 		printf("\n");
 		return;
